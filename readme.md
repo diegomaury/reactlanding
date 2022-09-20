@@ -1,7 +1,7 @@
 ## React course outline 2022.
 
 * [Introduction](#introduction)
-    * Installation](#introduction
+    * Installation
     * React Elements
 * [Components](#components)
     * Functions Components
