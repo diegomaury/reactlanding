@@ -46,13 +46,12 @@ React is declarative meaning it allows you to control the flow and state in your
 In order to be able to use Reactjs, you need to install node.js. If you don’t already have node installed on your computer, visit [https://nodejs.org/en/download/](https://nodejs.org/en/download/) and select a version depending on your operating system.
 node.js comes with npm and npx. All we need to know for now is that the npm is a package manager for nodejs, and we shall see it in use when talking about using external libraries.
 
- To check which version of node and npm you have installed, you can use these commands.
+ To check which version of node and npm you have installed, you can use these commands in your terminal or commad prompt.
 ```
-	> node -v
+	node -v
 ```
 ```
-	> npm -v
-
+	npm -v
 ```
 
 Creating a React App
@@ -67,17 +66,27 @@ React App Structure
 Now that you have successfully started your reactjs app, lets take time to talk about the structure of any reactjs application you will build.
 
 The project comes with some folders and files that we will need to know a thing or two about, some more important than the others
-node_modules: explain
-public folder: This folder contains static files like index.html, images, manifest.json and other assets, which don’t need to be processed by the webpack.
-src folder: which initially contains the App.js file, which you can edit the app.
-index.js: This the main/ entry file which allows you to import the parent file (App.js) as a module.
-App.js: 
-index.css:
-App.css:
-App.test.js:
-.gitignore:
-package.json: which holds a list of dependencies for your project plus some metadata like name, version etc.
-README.md: 
+`node_modules`: 
+
+`public folder`: This folder contains static files like index.html, images, manifest.json and other assets, which don’t need to be processed by the webpack.
+
+`src` folder: which initially contains the App.js file, which you can edit the app.
+
+`src/index.js`: This the main/ entry file which allows you to import the parent file (App.js) as a module.
+	
+`src/App.js`: 
+	
+`src/index.css`:
+	
+`src/App.css`:
+	
+`src/App.test.js`:
+	
+`.gitignore`:
+	
+`package.json`: which holds a list of dependencies for your project plus some metadata like name, version etc.
+	
+`README.md`: 
 
 Conclusion
 I hope you reached this point successfully, Day one was a general introduction to the library and nothing complicated. You could check out day two, where I share about components, Class vs Functional components.
